@@ -1,4 +1,3 @@
-// src/pages/PokemonList/index.js
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchPokemons, setSearchTerm } from '../store/pokemonSlice';
@@ -7,7 +6,7 @@ import './styles.css'; // Estilização do card
 
 const PokemonList = () => {
   const dispatch = useDispatch();
-  const { pokemonList, filteredPokemonList, searchTerm, error, loading } = useSelector((state) => state.pokemon);
+  const { filteredPokemonList, searchTerm, error, loading } = useSelector((state) => state.pokemon);
 
   // Buscar Pokémons ao montar o componente
   useEffect(() => {

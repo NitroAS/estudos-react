@@ -12,10 +12,7 @@ function Home() {
 
       <PokemonListRedux/>
 
-      {/* <PokemonListZustand /> */}
 
-      {/* Redux */}
-      {/* <PokemonListRedux/> */}
     </>
   );
 }

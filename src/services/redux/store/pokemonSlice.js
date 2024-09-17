@@ -6,7 +6,7 @@ import axios from 'axios';
 export const fetchPokemons = createAsyncThunk(
   'pokemon/fetchPokemons',
   async () => {
-    const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=906');
+    const response = await axios.get('https://pokeapi.co/api/v2/pokemon?limit=20');
     const pokemonResults = response.data.results;
 
     // Para cada Pokémon, buscar os detalhes completos
