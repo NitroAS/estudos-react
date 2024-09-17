@@ -36,15 +36,15 @@ const PokemonListRedux = () => {
   }, []);
 
   // Função para lidar com o filtro de Pokémons
-  const handleSearch = (event) => {
-    const value = event.target.value.toLowerCase();
-    setSearchTerm(value);
+  // const handleSearch = (event) => {
+  //   const value = event.target.value.toLowerCase();
+  //   setSearchTerm(value);
 
-    const filteredList = pokemonList.filter(pokemon =>
-      pokemon.name.toLowerCase().includes(value)
-    );
-    setFilteredPokemonList(filteredList);
-  };
+  //   const filteredList = pokemonList.filter(pokemon =>
+  //     pokemon.name.toLowerCase().includes(value)
+  //   );
+  //   setFilteredPokemonList(filteredList);
+  // };
 
   if (error) {
     return <p>{error}</p>;
