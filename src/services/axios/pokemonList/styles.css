@@ -1,0 +1,29 @@
+.pokemon-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    border: 1px solid #333;
+  }
+  
+  .pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
