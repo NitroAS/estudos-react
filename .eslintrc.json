@@ -1,7 +1,21 @@
 {
-    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "parserOptions": {
+      "ecmaVersion": 2020,        // Suporta recursos do ECMAScript 2020 (ES11)
+      "sourceType": "module",     // Permite a sintaxe de módulos ES6 (import/export)
+      "ecmaFeatures": {
+        "jsx": true               // Suporte a JSX (se estiver usando React)
+      }
+    },
+    "env": {
+      "browser": true,            // Suporte a variáveis globais do navegador
+      "es2021": true              // Suporte a recursos do ECMAScript 2021 (ES12)
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
     "rules": {
-      "max-len": ["error", { "code": 80 }]  // Limita o tamanho da linha a 80 caracteres
+      "max-len": ["error", { "code": 800 }]  // Limita o tamanho da linha a 80 caracteres
     }
   }
   

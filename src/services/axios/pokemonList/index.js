@@ -5,9 +5,9 @@ import './styles.css'; // Estilização do card
 
 
 const PokemonListRedux = () => {
-  const [pokemonList, setPokemonList] = useState([]);
+  const [, setPokemonList] = useState([]);
   const [filteredPokemonList, setFilteredPokemonList] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm] = useState('');
   const [error, setError] = useState(null);
 
   useEffect(() => {

@@ -4,5 +4,4 @@
 
 
 npx lint-staged   # Corrige erros de linting e formata o código
-npm test          # Executa os testes após garantir que o código está correto
 

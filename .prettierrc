@@ -1,7 +1,6 @@
 {
-    "printWidth": 80,  // Limite de 80 caracteres por linha
-    "tabWidth": 2,     // Número de espaços por tabulação
-    "singleQuote": true, // Usar aspas simples em vez de duplas
-    "semi": true        // Forçar ponto e vírgula no final de cada linha
-  }
-  
+    "printWidth": 80,  
+    "tabWidth": 2,    
+    "singleQuote": true, 
+    "semi": true        
+}

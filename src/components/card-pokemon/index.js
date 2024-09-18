@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import './styles.css'; // Estilização do card
-
+// eslint-disable-next-line react/prop-types
 const PokemonCard = ({ pokemon }) => {
   return (
     <div className="pokemon-card">

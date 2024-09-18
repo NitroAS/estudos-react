@@ -2,3 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run lint
+# npm test -- --all                
+# npm run build         # Garante que o projeto compila
+# npm audit --production  # Verifica vulnerabilidades nas dependências
