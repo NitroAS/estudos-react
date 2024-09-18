@@ -1,7 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm test
-npm run lint
-npm run lint && npm run format
-npx lint-staged
+
+
+npx lint-staged   # Corrige erros de linting e formata o código
+npm test          # Executa os testes após garantir que o código está correto
+

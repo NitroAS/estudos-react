@@ -1,0 +1,7 @@
+{
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "rules": {
+      "max-len": ["error", { "code": 80 }]  // Limita o tamanho da linha a 80 caracteres
+    }
+  }
+  
